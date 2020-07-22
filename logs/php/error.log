@@ -1,0 +1,539 @@
+[22-Jul-2020 02:17:44 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 5167
+[22-Jul-2020 02:17:44 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:44 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:44 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:44 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:17:44 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:17:44 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:17:44 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:17:44 UTC] PHP   7. register_sidebar() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunset/functions.php:7
+[22-Jul-2020 02:17:44 UTC] PHP   8. _doing_it_wrong() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/widgets.php:287
+[22-Jul-2020 02:17:44 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167
+[22-Jul-2020 02:17:44 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:17:44 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:44 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:44 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:44 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:17:44 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:17:44 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:17:44 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:17:44 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunset/functions.php:32
+[22-Jul-2020 02:17:44 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:17:44 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:17:44 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:17:44 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:44 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:44 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:44 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:17:44 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:17:44 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:17:44 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:17:44 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunset/functions.php:50
+[22-Jul-2020 02:17:44 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:17:44 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:17:44 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:17:44 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:44 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:44 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:44 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:17:44 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:17:44 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:17:44 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:17:44 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunset/functions.php:67
+[22-Jul-2020 02:17:44 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:17:44 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:17:44 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:17:44 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:44 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:44 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:44 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:17:44 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:17:44 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:17:44 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:17:44 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunset/functions.php:95
+[22-Jul-2020 02:17:44 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:17:44 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:17:44 UTC] PHP Deprecated:  register_widget_control is <strong>deprecated</strong> since version 2.8.0! Use wp_register_widget_control() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:17:44 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:44 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:44 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:44 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:17:44 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:17:44 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:17:44 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:17:44 UTC] PHP   7. register_widget_control() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunset/functions.php:112
+[22-Jul-2020 02:17:44 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2169
+[22-Jul-2020 02:17:44 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:17:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 6221
+[22-Jul-2020 02:17:44 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:44 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:44 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:44 UTC] PHP   3. do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:170
+[22-Jul-2020 02:17:44 UTC] PHP   4. WP_Hook->do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/plugin.php:478
+[22-Jul-2020 02:17:44 UTC] PHP   5. WP_Hook->apply_filters() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:311
+[22-Jul-2020 02:17:44 UTC] PHP   6. send_frame_options_header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:285
+[22-Jul-2020 02:17:44 UTC] PHP   7. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:6221
+[22-Jul-2020 02:17:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/includes/misc.php on line 1282
+[22-Jul-2020 02:17:44 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:44 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:44 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:44 UTC] PHP   3. do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:170
+[22-Jul-2020 02:17:44 UTC] PHP   4. WP_Hook->do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/plugin.php:478
+[22-Jul-2020 02:17:44 UTC] PHP   5. WP_Hook->apply_filters() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:311
+[22-Jul-2020 02:17:44 UTC] PHP   6. wp_admin_headers() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:287
+[22-Jul-2020 02:17:44 UTC] PHP   7. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/includes/misc.php:1282
+[22-Jul-2020 02:17:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin-header.php on line 9
+[22-Jul-2020 02:17:44 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:44 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:44 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:185
+[22-Jul-2020 02:17:44 UTC] PHP   3. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin-header.php:9
+[22-Jul-2020 02:17:48 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 5167
+[22-Jul-2020 02:17:48 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:48 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:48 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:48 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:17:48 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:17:48 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:17:48 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:17:48 UTC] PHP   7. register_sidebar() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunset/functions.php:7
+[22-Jul-2020 02:17:48 UTC] PHP   8. _doing_it_wrong() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/widgets.php:287
+[22-Jul-2020 02:17:48 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167
+[22-Jul-2020 02:17:48 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:17:48 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:48 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:48 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:48 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:17:48 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:17:48 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:17:48 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:17:48 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunset/functions.php:32
+[22-Jul-2020 02:17:48 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:17:48 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:17:48 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:17:48 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:48 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:48 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:48 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:17:48 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:17:48 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:17:48 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:17:48 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunset/functions.php:50
+[22-Jul-2020 02:17:48 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:17:48 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:17:48 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:17:48 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:48 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:48 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:48 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:17:48 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:17:48 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:17:48 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:17:48 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunset/functions.php:67
+[22-Jul-2020 02:17:48 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:17:48 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:17:48 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:17:48 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:48 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:48 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:48 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:17:48 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:17:48 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:17:48 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:17:48 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunset/functions.php:95
+[22-Jul-2020 02:17:48 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:17:48 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:17:48 UTC] PHP Deprecated:  register_widget_control is <strong>deprecated</strong> since version 2.8.0! Use wp_register_widget_control() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:17:48 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:48 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:48 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:48 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:17:48 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:17:48 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:17:48 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:17:48 UTC] PHP   7. register_widget_control() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunset/functions.php:112
+[22-Jul-2020 02:17:48 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2169
+[22-Jul-2020 02:17:48 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:17:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 6221
+[22-Jul-2020 02:17:48 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:48 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:48 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:48 UTC] PHP   3. do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:170
+[22-Jul-2020 02:17:48 UTC] PHP   4. WP_Hook->do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/plugin.php:478
+[22-Jul-2020 02:17:48 UTC] PHP   5. WP_Hook->apply_filters() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:311
+[22-Jul-2020 02:17:48 UTC] PHP   6. send_frame_options_header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:285
+[22-Jul-2020 02:17:48 UTC] PHP   7. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:6221
+[22-Jul-2020 02:17:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/includes/misc.php on line 1282
+[22-Jul-2020 02:17:48 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:48 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:48 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:17:48 UTC] PHP   3. do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:170
+[22-Jul-2020 02:17:48 UTC] PHP   4. WP_Hook->do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/plugin.php:478
+[22-Jul-2020 02:17:48 UTC] PHP   5. WP_Hook->apply_filters() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:311
+[22-Jul-2020 02:17:48 UTC] PHP   6. wp_admin_headers() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:287
+[22-Jul-2020 02:17:48 UTC] PHP   7. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/includes/misc.php:1282
+[22-Jul-2020 02:17:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin-header.php on line 9
+[22-Jul-2020 02:17:48 UTC] PHP Stack trace:
+[22-Jul-2020 02:17:48 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:17:48 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:185
+[22-Jul-2020 02:17:48 UTC] PHP   3. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin-header.php:9
+[22-Jul-2020 02:19:18 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 5167
+[22-Jul-2020 02:19:18 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:18 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:18 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:18 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:18 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:18 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:18 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:18 UTC] PHP   7. register_sidebar() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:7
+[22-Jul-2020 02:19:18 UTC] PHP   8. _doing_it_wrong() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/widgets.php:287
+[22-Jul-2020 02:19:18 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167
+[22-Jul-2020 02:19:18 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:18 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:18 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:18 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:18 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:18 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:18 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:18 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:18 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:32
+[22-Jul-2020 02:19:18 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:19:18 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:18 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:18 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:18 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:18 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:18 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:18 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:18 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:18 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:18 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:50
+[22-Jul-2020 02:19:18 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:19:18 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:18 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:18 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:18 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:18 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:18 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:18 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:18 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:18 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:18 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:67
+[22-Jul-2020 02:19:18 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:19:18 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:18 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:18 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:18 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:18 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:18 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:18 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:18 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:18 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:18 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:95
+[22-Jul-2020 02:19:18 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:19:18 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:18 UTC] PHP Deprecated:  register_widget_control is <strong>deprecated</strong> since version 2.8.0! Use wp_register_widget_control() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:18 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:18 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:18 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:18 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:18 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:18 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:18 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:18 UTC] PHP   7. register_widget_control() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:112
+[22-Jul-2020 02:19:18 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2169
+[22-Jul-2020 02:19:18 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 6221
+[22-Jul-2020 02:19:18 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:18 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:18 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:18 UTC] PHP   3. do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:170
+[22-Jul-2020 02:19:18 UTC] PHP   4. WP_Hook->do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/plugin.php:478
+[22-Jul-2020 02:19:18 UTC] PHP   5. WP_Hook->apply_filters() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:311
+[22-Jul-2020 02:19:18 UTC] PHP   6. send_frame_options_header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:285
+[22-Jul-2020 02:19:18 UTC] PHP   7. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:6221
+[22-Jul-2020 02:19:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/includes/misc.php on line 1282
+[22-Jul-2020 02:19:18 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:18 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:18 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:18 UTC] PHP   3. do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:170
+[22-Jul-2020 02:19:18 UTC] PHP   4. WP_Hook->do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/plugin.php:478
+[22-Jul-2020 02:19:18 UTC] PHP   5. WP_Hook->apply_filters() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:311
+[22-Jul-2020 02:19:18 UTC] PHP   6. wp_admin_headers() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:287
+[22-Jul-2020 02:19:18 UTC] PHP   7. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/includes/misc.php:1282
+[22-Jul-2020 02:19:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin-header.php on line 9
+[22-Jul-2020 02:19:18 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:18 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:18 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:185
+[22-Jul-2020 02:19:18 UTC] PHP   3. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin-header.php:9
+[22-Jul-2020 02:19:37 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 5167
+[22-Jul-2020 02:19:37 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:37 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:37 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:37 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:37 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:37 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:37 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:37 UTC] PHP   7. register_sidebar() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:7
+[22-Jul-2020 02:19:37 UTC] PHP   8. _doing_it_wrong() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/widgets.php:287
+[22-Jul-2020 02:19:37 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167
+[22-Jul-2020 02:19:37 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:37 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:37 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:37 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:37 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:37 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:37 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:37 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:37 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:32
+[22-Jul-2020 02:19:37 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:19:37 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:37 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:37 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:37 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:37 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:37 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:37 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:37 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:37 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:37 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:50
+[22-Jul-2020 02:19:37 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:19:37 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:37 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:37 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:37 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:37 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:37 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:37 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:37 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:37 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:37 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:67
+[22-Jul-2020 02:19:37 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:19:37 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:37 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:37 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:37 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:37 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:37 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:37 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:37 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:37 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:37 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:95
+[22-Jul-2020 02:19:37 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:19:37 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:37 UTC] PHP Deprecated:  register_widget_control is <strong>deprecated</strong> since version 2.8.0! Use wp_register_widget_control() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:37 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:37 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:37 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:37 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:37 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:37 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:37 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:37 UTC] PHP   7. register_widget_control() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:112
+[22-Jul-2020 02:19:37 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2169
+[22-Jul-2020 02:19:37 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 6221
+[22-Jul-2020 02:19:37 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:37 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:37 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:37 UTC] PHP   3. do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:170
+[22-Jul-2020 02:19:37 UTC] PHP   4. WP_Hook->do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/plugin.php:478
+[22-Jul-2020 02:19:37 UTC] PHP   5. WP_Hook->apply_filters() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:311
+[22-Jul-2020 02:19:37 UTC] PHP   6. send_frame_options_header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:285
+[22-Jul-2020 02:19:37 UTC] PHP   7. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:6221
+[22-Jul-2020 02:19:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/includes/misc.php on line 1282
+[22-Jul-2020 02:19:37 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:37 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:37 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:37 UTC] PHP   3. do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:170
+[22-Jul-2020 02:19:37 UTC] PHP   4. WP_Hook->do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/plugin.php:478
+[22-Jul-2020 02:19:37 UTC] PHP   5. WP_Hook->apply_filters() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:311
+[22-Jul-2020 02:19:37 UTC] PHP   6. wp_admin_headers() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:287
+[22-Jul-2020 02:19:37 UTC] PHP   7. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/includes/misc.php:1282
+[22-Jul-2020 02:19:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin-header.php on line 9
+[22-Jul-2020 02:19:37 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:37 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:37 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:185
+[22-Jul-2020 02:19:37 UTC] PHP   3. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin-header.php:9
+[22-Jul-2020 02:19:55 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 5167
+[22-Jul-2020 02:19:55 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:55 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:55 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:55 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:55 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:55 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:55 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:55 UTC] PHP   7. register_sidebar() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:7
+[22-Jul-2020 02:19:55 UTC] PHP   8. _doing_it_wrong() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/widgets.php:287
+[22-Jul-2020 02:19:55 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167
+[22-Jul-2020 02:19:55 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:55 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:55 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:55 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:55 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:55 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:55 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:55 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:55 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:32
+[22-Jul-2020 02:19:55 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:19:55 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:55 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:55 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:55 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:55 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:55 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:55 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:55 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:55 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:55 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:50
+[22-Jul-2020 02:19:55 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:19:55 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:55 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:55 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:55 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:55 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:55 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:55 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:55 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:55 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:55 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:67
+[22-Jul-2020 02:19:55 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:19:55 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:55 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:55 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:55 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:55 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:55 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:55 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:55 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:55 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:55 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:95
+[22-Jul-2020 02:19:55 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:19:55 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:55 UTC] PHP Deprecated:  register_widget_control is <strong>deprecated</strong> since version 2.8.0! Use wp_register_widget_control() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:19:55 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:55 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:55 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:55 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:19:55 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:19:55 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:19:55 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:19:55 UTC] PHP   7. register_widget_control() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:112
+[22-Jul-2020 02:19:55 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2169
+[22-Jul-2020 02:19:55 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:19:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 6221
+[22-Jul-2020 02:19:55 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:55 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:55 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:55 UTC] PHP   3. do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:170
+[22-Jul-2020 02:19:55 UTC] PHP   4. WP_Hook->do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/plugin.php:478
+[22-Jul-2020 02:19:55 UTC] PHP   5. WP_Hook->apply_filters() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:311
+[22-Jul-2020 02:19:55 UTC] PHP   6. send_frame_options_header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:285
+[22-Jul-2020 02:19:55 UTC] PHP   7. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:6221
+[22-Jul-2020 02:19:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/includes/misc.php on line 1282
+[22-Jul-2020 02:19:55 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:55 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:55 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:19:55 UTC] PHP   3. do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:170
+[22-Jul-2020 02:19:55 UTC] PHP   4. WP_Hook->do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/plugin.php:478
+[22-Jul-2020 02:19:55 UTC] PHP   5. WP_Hook->apply_filters() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:311
+[22-Jul-2020 02:19:55 UTC] PHP   6. wp_admin_headers() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:287
+[22-Jul-2020 02:19:55 UTC] PHP   7. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/includes/misc.php:1282
+[22-Jul-2020 02:19:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin-header.php on line 9
+[22-Jul-2020 02:19:55 UTC] PHP Stack trace:
+[22-Jul-2020 02:19:55 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:19:55 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:185
+[22-Jul-2020 02:19:55 UTC] PHP   3. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin-header.php:9
+[22-Jul-2020 02:20:03 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Sidebar 1" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 5167
+[22-Jul-2020 02:20:03 UTC] PHP Stack trace:
+[22-Jul-2020 02:20:03 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:20:03 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:20:03 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:20:03 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:20:03 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:20:03 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:20:03 UTC] PHP   7. register_sidebar() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:7
+[22-Jul-2020 02:20:03 UTC] PHP   8. _doing_it_wrong() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/widgets.php:287
+[22-Jul-2020 02:20:03 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167
+[22-Jul-2020 02:20:03 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:20:03 UTC] PHP Stack trace:
+[22-Jul-2020 02:20:03 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:20:03 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:20:03 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:20:03 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:20:03 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:20:03 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:20:03 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:32
+[22-Jul-2020 02:20:03 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:20:03 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:20:03 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:20:03 UTC] PHP Stack trace:
+[22-Jul-2020 02:20:03 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:20:03 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:20:03 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:20:03 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:20:03 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:20:03 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:20:03 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:50
+[22-Jul-2020 02:20:03 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:20:03 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:20:03 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:20:03 UTC] PHP Stack trace:
+[22-Jul-2020 02:20:03 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:20:03 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:20:03 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:20:03 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:20:03 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:20:03 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:20:03 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:67
+[22-Jul-2020 02:20:03 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:20:03 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:20:03 UTC] PHP Deprecated:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8.0! Use wp_register_sidebar_widget() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:20:03 UTC] PHP Stack trace:
+[22-Jul-2020 02:20:03 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:20:03 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:20:03 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:20:03 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:20:03 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:20:03 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:20:03 UTC] PHP   7. register_sidebar_widget() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:95
+[22-Jul-2020 02:20:03 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2115
+[22-Jul-2020 02:20:03 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:20:03 UTC] PHP Deprecated:  register_widget_control is <strong>deprecated</strong> since version 2.8.0! Use wp_register_widget_control() instead. in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 4713
+[22-Jul-2020 02:20:03 UTC] PHP Stack trace:
+[22-Jul-2020 02:20:03 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:20:03 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:20:03 UTC] PHP   3. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:34
+[22-Jul-2020 02:20:03 UTC] PHP   4. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-load.php:37
+[22-Jul-2020 02:20:03 UTC] PHP   5. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-config.php:77
+[22-Jul-2020 02:20:03 UTC] PHP   6. include() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-settings.php:508
+[22-Jul-2020 02:20:03 UTC] PHP   7. register_widget_control() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-content/themes/sunsetRaza/functions.php:112
+[22-Jul-2020 02:20:03 UTC] PHP   8. _deprecated_function() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/deprecated.php:2169
+[22-Jul-2020 02:20:03 UTC] PHP   9. trigger_error() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:4713
+[22-Jul-2020 02:20:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php on line 6221
+[22-Jul-2020 02:20:03 UTC] PHP Stack trace:
+[22-Jul-2020 02:20:03 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:20:03 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:20:03 UTC] PHP   3. do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:170
+[22-Jul-2020 02:20:03 UTC] PHP   4. WP_Hook->do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/plugin.php:478
+[22-Jul-2020 02:20:03 UTC] PHP   5. WP_Hook->apply_filters() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:311
+[22-Jul-2020 02:20:03 UTC] PHP   6. send_frame_options_header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:285
+[22-Jul-2020 02:20:03 UTC] PHP   7. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:6221
+[22-Jul-2020 02:20:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/includes/misc.php on line 1282
+[22-Jul-2020 02:20:03 UTC] PHP Stack trace:
+[22-Jul-2020 02:20:03 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:20:03 UTC] PHP   2. require_once() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:10
+[22-Jul-2020 02:20:03 UTC] PHP   3. do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/admin.php:170
+[22-Jul-2020 02:20:03 UTC] PHP   4. WP_Hook->do_action() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/plugin.php:478
+[22-Jul-2020 02:20:03 UTC] PHP   5. WP_Hook->apply_filters() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:311
+[22-Jul-2020 02:20:03 UTC] PHP   6. wp_admin_headers() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/class-wp-hook.php:287
+[22-Jul-2020 02:20:03 UTC] PHP   7. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/includes/misc.php:1282
+[22-Jul-2020 02:20:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/pluggable.php on line 1281
+[22-Jul-2020 02:20:03 UTC] PHP Stack trace:
+[22-Jul-2020 02:20:03 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:20:03 UTC] PHP   2. wp_redirect() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:34
+[22-Jul-2020 02:20:03 UTC] PHP   3. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/pluggable.php:1281
+[22-Jul-2020 02:20:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/functions.php:5167) in /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/pluggable.php on line 1284
+[22-Jul-2020 02:20:03 UTC] PHP Stack trace:
+[22-Jul-2020 02:20:03 UTC] PHP   1. {main}() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:0
+[22-Jul-2020 02:20:03 UTC] PHP   2. wp_redirect() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-admin/themes.php:34
+[22-Jul-2020 02:20:03 UTC] PHP   3. header() /Users/mohdraza/WebDev/wordpress/sunset-theme/app/public/wp-includes/pluggable.php:1284
