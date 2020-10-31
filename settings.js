@@ -1,1 +1,1 @@
-export const themeLocation = "./app/public/wp-content/themes/Sunset";
+export const themeLocation = "./app/public/wp-content/themes/sunsetRaza";

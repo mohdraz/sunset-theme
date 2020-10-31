@@ -24,6 +24,73 @@ export const styles = () => {
     .pipe(gulpIf(PRODUCTION, postcss([autoprefixer])))
     .pipe(gulpIf(PRODUCTION, cleanCss({ compatibiity: "ie8" })))
     .pipe(gulpif(!PRODUCTION, sourcemaps.write()))
+    .pipe(dest(`${Settings.themeLocation}/`));
+};
+
+// JS
+export const js_scripts = (callback) => {
+  webpack(require("./webpack.config.js"), function (err, stats) {
+    if (err) {
+      console.log(err.toString());
+    }
+
+    console.log(stats.toString());
+    callback();
+  });
+};
+
+// gulp.task("scripts", function (callback) {
+//   webpack(require("./webpack.config.js"), function (err, stats) {
+//     if (err) {
+//       console.log(err.toString());
+//     }
+
+//     console.log(stats.toString());
+//     callback();
+//   });
+// });
+
+// export const scripts = () => {
+//   return src(["src/js/bundle.js", "src/js/admin.js"])
+//     .pipe(named())
+//     .pipe(
+//       webpack({
+//         module: {
+//           rules: [
+//             {
+//               test: /\.js$/,
+//               use: {
+//                 loader: "babel-loader",
+//                 options: {
+//                   presets: ["@babel/preset-env"],
+//                 },
+//               },
+//             },
+//           ],
+//         },
+//         mode: PRODUCTION ? "production" : "development",
+//         devtool: !PRODUCTION ? "inline-source-map" : false,
+//         output: {
+//           filename: "[name].js",
+//         },
+//         externals: {
+//           jquery: "jQuery",
+//         },
+//       })
+//     )
+//     .pipe(dest("dist/js"));
+// };
+
+// end of JS
+
+// admin style
+export const styles2 = () => {
+  return src(`${Settings.themeLocation}/sass/css/*.scss`)
+    .pipe(gulpIf(!PRODUCTION, sourcemaps.init()))
+    .pipe(sass().on("error", sass.logError))
+    .pipe(gulpIf(PRODUCTION, postcss([autoprefixer])))
+    .pipe(gulpIf(PRODUCTION, cleanCss({ compatibiity: "ie8" })))
+    .pipe(gulpif(!PRODUCTION, sourcemaps.write()))
     .pipe(dest(`${Settings.themeLocation}/css/`));
 };
 
@@ -32,7 +99,7 @@ export const styles = () => {
 const server = browserSync.create();
 export const serve = (done) => {
   server.init({
-    proxy: "localhost:10023",
+    proxy: "http://localhost:10023",
   });
   done();
 };
@@ -46,10 +113,12 @@ export const reload = (done) => {
 
 export const watchForChange = () => {
   watch(
-    `${Settings.themeLocation}/assets/sass/**/*.scss`,
-    series(styles, reload)
+    `${Settings.themeLocation}/sass/**/*.scss`,
+    series(styles, styles2, reload)
   );
   watch(`${Settings.themeLocation}/**/*.php`, reload);
+  watch(`${Settings.themeLocation}/**/*.css`, reload);
+  watch(`${Settings.themeLocation}/**/*.js`, reload);
 };
 
 const dev = series(styles, serve, watchForChange);
